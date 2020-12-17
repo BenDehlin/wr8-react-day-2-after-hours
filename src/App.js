@@ -1,25 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Display from './Components/Display'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>App</h1>
+      <Display />
     </div>
   );
 }
 
 export default App;
+
+
+//Display Component - storing a list of friends
+//Child Component - showing each object in the friends array
+//Form - input fields, state for new friends, submit button
